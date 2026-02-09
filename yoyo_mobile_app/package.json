@@ -1,0 +1,11 @@
+{
+  "name": "restaurant-cafe-suite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "build:mobile": "npm --prefix frontend run build:mobile",
+    "build:desktop": "npm --prefix frontend run build:desktop"
+  }
+}
