@@ -1,0 +1,61 @@
+name: yoyo_assistant
+description: Application mobile pour l'assistant vocal Yoyo
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+  http: ^1.1.0
+  web_socket_channel: ^2.4.0
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+  flutter_sound: ^9.2.13
+  permission_handler: ^11.0.1
+  flutter_tts: ^3.8.3
+  avatar_glow: ^2.0.2
+  mqtt_client: ^10.0.0
+  flutter_svg: ^2.0.7
+  intl: ^0.18.1
+  google_fonts: ^6.1.0
+  flutter_dotenv: ^5.1.0
+  speech_to_text: ^6.3.0
+  lottie: ^2.6.0
+  connectivity_plus: ^5.0.1
+  flutter_secure_storage: ^9.0.0
+  package_info_plus: ^4.2.0
+  device_info_plus: ^9.1.0
+  flutter_native_splash: ^2.3.2
+  url_launcher: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.6
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/icons/
+    - .env
+
+flutter_native_splash:
+  color: "#764ba2"
+  image: assets/images/yoyo_logo.png
+  android: true
+  ios: true
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/yoyo_logo.png"
